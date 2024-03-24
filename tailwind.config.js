@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./index.html"],
   theme: {
     extend: {
@@ -18,11 +18,11 @@ module.exports = {
         custom2: "0px 0px 30px rgba(8,73,81,0.06)",
       },
       backgroundImage: {
-        services: "url(../../assets/img/services/bg.svg)",
-        testimonials: "url(../../assets/img/testimonials/bg.svg)",
-        departments: "url(../../assets/img/departments/bg.svg)",
-        quoteLeft: "url(../../assets/icons/testimonials/quote-left.svg)",
-        quoteRight: "url(../../assets/icons/testimonials/quote-right.svg)",
+        services: "url('/assets/img/services/bg.svg')",
+        testimonials: "url('/assets/img/testimonials/bg.svg')",
+        departments: "url('/assets/img/departments/bg.svg')",
+        quoteLeft: "url('/assets/icons/testimonials/quote-left.svg')",
+        quoteRight: "url('/assets/icons/testimonials/quote-right.svg')",
       },
     },
     container: {

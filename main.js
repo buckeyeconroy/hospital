@@ -1,3 +1,7 @@
+import "./css/index.css";
+import Swiper from "swiper";
+import ScrollReveal from "scrollreveal";
+
 // mobile nav
 const mobileNav = document.querySelector(".mnav");
 const closeBtn = document.querySelector(".mnav__close-btn");
